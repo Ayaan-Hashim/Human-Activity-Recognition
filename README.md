@@ -1,5 +1,5 @@
 # Human-Activity-Recognition
-A hierarchical machine learning framework comprising two advanced CNN models capable of distinguishing among 11 distinct physical activities and 4 unique breathing patterns. The `tflite` files can be found in `andrioid-app/app/src/main/assets/Models`
+A hierarchical machine learning framework comprising two advanced CNN models capable of distinguishing among 11 distinct physical activities and 4 unique breathing patterns. The `tflite` files can be found in `andrioid-app/app/src/main/assets/Models`. Some tasks code can also be found under `model_code/`.
 
 
 # On-Device Activity Classification System
