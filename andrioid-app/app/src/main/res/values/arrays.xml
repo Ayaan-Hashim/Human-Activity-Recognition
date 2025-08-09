@@ -1,0 +1,17 @@
+<resources>
+    <string-array name="days_array">
+        <item>Day 1</item>
+        <item>Day 2</item>
+        <!-- ... etc ... -->
+    </string-array>
+    <string-array name="months_array">
+        <item>January</item>
+        <item>February</item>
+        <!-- ... etc ... -->
+    </string-array>
+    <string-array name="years_array">
+        <item>2021</item>
+        <item>2022</item>
+        <!-- ... etc ... -->
+    </string-array>
+</resources>

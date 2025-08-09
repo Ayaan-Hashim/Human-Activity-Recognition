@@ -1,0 +1,84 @@
+<resources>
+    <string name="app_name">PDIoT App</string>
+    <string name="ble_name">Name: %1$s</string>
+    <string name="ble_mac">MAC: %1$s</string>
+    <string name="ble_signal">Signal: %1$d</string>
+    <string name="ble_uuid">UUID: %1$s</string>
+    <string name="title_activity_on_boarding">OnBoardingActivity</string>
+    <string name="tab_text_1">Tab 1</string>
+    <string name="tab_text_2">Tab 2</string>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_fab_animations">FAB Animation</string>
+    <string name="title_activity_toolbar_test">ToolbarTestActivity</string>
+    <string name="title_activity_nav_drawer">NavDrawerActivity</string>
+    <string name="title_activity_animate_toolbar">Animate Toolbar</string>
+    <string name="title_activity_tab_animation">Tabs Animation</string>
+    <string name="title_activity_sticky_view">StickyViewActivity</string>
+
+    <string name="section_bluetooth">Welcome to the PDIoT App. Use it to connect to your Respeck and view activity predictions!</string>
+    <string name="section_record">Predictions are stored on a online database for you to view them anytime.</string>
+    <string name="section_live">You can also view the live data once the sensor is connected.</string>
+    <string name="section_bluetooth_title">Connect</string>
+    <string name="section_record_title">Record</string>
+    <string name="section_live_title">View</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="title_activity_swipe_refresh">Swipe Refresh</string>
+    <string name="title_activity_mini_drawer">Mini Drawer</string>
+    <string name="title_activity_nested_toolbar">Nested Toolbar</string>
+    <string name="action_search">Search</string>
+    <string name="action_view_module">View</string>
+    <string name="title_quick_return">Quick Return</string>
+    <string name="title_activity_reveal">Reveal Animation</string>
+    <string name="title_activity_reveal_animation">Reveal Animation</string>
+    <string name="title_activity_launch_screen">LaunchScreenActivity</string>
+    <string name="title_activity_gmail_style">Gmail List</string>
+    <string name="title_activity_tabs_header">Header Tabs</string>
+    <string name="title_activity_pager">PagerActivity</string>
+    <string name="section_format">Page %1$d</string>
+    <string name="action_add">Add</string>
+    <string name="android_desserts">Android Desserts</string>
+
+    <string name="notification_speck_title">RESpeck and Airspeck</string>
+    <string name="notification_speck_text">Listening for sensor data</string>
+    <string name="respeck_name">RESpeck</string>
+
+    <string name="respeck_accel">Accel = (%1$.3f, %2$.3f, %3$.3f)</string>
+    <string name="respeck_gyro">Gyro = (%1$.3f, %2$.3f, %3$.3f)</string>
+
+    <string name="thingy_accel">Accel = (%1$.3f, %2$.3f, %3$.3f)</string>
+    <string name="thingy_gyro">Gyro = (%1$.3f, %2$.3f, %3$.3f)</string>
+    <string name="thingy_mag">Mag = (%1$.3f, %2$.3f, %3$.3f)</string>
+
+    <string name="default_web_client_id">your_web_client_id_here</string>
+    <string name="login_title">Login/Register</string>
+    <string name="sign_title">Create an account</string>
+    <string name="prompt_email">Enter your email</string>
+    <string name="prompt_password">Enter your password</string>
+    <string name="action_sign_in">Login</string>
+    <string name="prompt_sign_up">Don\'t have an account? Sign up</string>
+    <string name="google_sign_in">Continue with Google</string>
+    <string name="hint_name">Name</string>
+    <string name="prompt_email_create">Email</string>
+    <string name="prompt_password_create">Password</string>
+    <string name="hint_confirm_password">Confirm Password</string>
+    <string name="action_sign_up">Sign Up</string>
+    <string name="prompt_already_have_account">Already have an account? Log in</string>
+    <string name="register_title">Create an account</string>
+    <string name="header_transition">headerImage</string>
+    <string name="respeck_connection_status_disconnected">Respeck Connection Status: Disconnected</string>
+    <string name="predictedActivity">Activity: Unknown</string>
+    <string name="predictedBreathing">Breathing: Not detected</string>
+    <string name="viewActivity">View Activity</string>
+    <string name="respeck_gyro_chart">Respeck Live Gyro Data</string>
+    <string name="respeck_live_accel_data">Respeck Live Accel Data</string>
+    <string name="live_data">Live Data</string>
+    <color name="errorColor">#FF0000</color> <!-- Red color for errors -->
+    <color name="successColor">#00FF00</color> <!-- Green color for success -->
+    <color name="buttonColor">#007AFF</color> <!-- Blue color for the button -->
+
+
+</resources>

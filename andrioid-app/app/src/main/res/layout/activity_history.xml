@@ -1,0 +1,77 @@
+<!-- Layout for the History Activity -->
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <!-- Filter layout container -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center_vertical">
+
+        <!-- Start date filter button -->
+        <Button
+            android:id="@+id/start_date"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:text="Select Start Date" />
+
+        <!-- End date filter button -->
+        <Button
+            android:id="@+id/end_date"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:text="Select End Date" />
+
+        <!-- Button to apply date filter -->
+        <Button
+            android:id="@+id/apply_filter"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Apply Filter" />
+    </LinearLayout>
+
+    <!-- ScrollView to allow table scrolling if there are many items -->
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1">
+
+        <TableLayout
+            android:id="@+id/tableLayoutActivity"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:stretchColumns="1,2,3">
+            <!-- Table header -->
+            <TableRow>
+                <TextView android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="Date"
+                    android:gravity="center"
+                    android:padding="8dp"
+                    android:background="@color/tableHeaderColor" />
+                <TextView android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="Activity"
+                    android:gravity="center"
+                    android:padding="8dp"
+                    android:background="@color/tableHeaderColor" />
+                <TextView android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="Breathing"
+                    android:gravity="center"
+                    android:padding="8dp"
+                    android:background="@color/tableHeaderColor" />
+            </TableRow>
+        </TableLayout>
+
+    </ScrollView>
+</LinearLayout>
